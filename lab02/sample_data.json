@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "bohemian rhapsody",
+    "genre": "rock",
+    "listens": [
+      500,
+      300
+    ]
+  },
+  {
+    "id": 2,
+    "title": "SHAPE OF YOU",
+    "genre": "pop",
+    "listens": [
+      1500
+    ]
+  },
+  {
+    "id": 3,
+    "title": "nothing else matters",
+    "genre": "rock",
+    "listens": [
+      100,
+      60
+    ]
+  },
+  {
+    "id": 4,
+    "title": "blinding lights",
+    "genre": "pop",
+    "listens": [
+      1200
+    ]
+  },
+  {
+    "id": 5,
+    "title": "take five",
+    "genre": "jazz",
+    "listens": [
+      700,
+      500
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+from typing import Any
+
+import pytest
+
+
+@pytest.fixture
+def rows() -> list[dict[str, Any]]:
+    return [
+        {"id": " sh-101 ", "weight": 12.5, "distance": 340, "priority": 2, "cost": 120},
+        {"id": "SH-102", "weight": 80, "distance": 1200, "priority": 3, "cost": 450},
+        {"id": "sh-103", "weight": 2.2, "distance": 45, "priority": 1, "cost": 40},
+        {"id": "sh-104", "weight": 25, "distance": 600, "priority": 3, "cost": 300},
+        {
+            "id": "sh-105",
+            "weight": "5",
+            "distance": "150",
+            "priority": "2",
+            "cost": "75",
+        },
+    ]
